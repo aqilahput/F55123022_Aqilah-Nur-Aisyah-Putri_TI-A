@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery Showcase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .grid-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .grid-item {
+            background: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .grid-item h3 {
+            padding: 0.5rem;
+            text-align: center;
+            background: #333;
+            color: #fff;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Katalog Pahlawan</h1>
+    </header>
+
+    <div class="container">
+        <p>Selamat Datang! di Katalog Pahlawan.</p>
+        
+        <div class="grid-gallery">
+            <div class="grid-item">
+                <img src="img/sukarno.png" alt="Soekarno">
+                <h3>Soekarno</h3>
+            </div>
+            <div class="grid-item">
+                <img src="img/mohammad_hatta.png" alt="Moh.Hatta">
+                <h3>Moh.Hatta</h3>
+            </div>
+            <div class="grid-item">
+                <img src="img/ahmad_dahlan.png" alt="Ahmad Dahlan">
+                <h3>Ahmad Dahlan</h3>
+            </div>
+            <div class="grid-item">
+                <img src="img/gatot_subroto.png" alt="Subroto">
+                <h3>Gatot Subroto</h3>
+            </div>
+            <div class="grid-item">
+                <img src="img/supomo.png" alt="Supomo">
+                <h3>Supomo</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hero's Katalog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
