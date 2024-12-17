@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #228B22;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }  
+  
+  /* Hero Section with Background Image */
+  .hero {
+    text-align: center;
+    color: white;
+    background: url('img/lestari.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    background-size: cover; /* Pastikan gambar latar belakang mencakup seluruh area */
+    background-position: center; /* Posisikan gambar di tengah */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold; /* Menambahkan ketebalan font untuk penekanan */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Menambahkan efek bayangan untuk teks */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Menambah jarak antar baris untuk kenyamanan membaca */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); /* Menambahkan bayangan pada teks untuk kontras lebih baik */
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #228B22; /* Hijau khas yang mencerminkan keberlanjutan */
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold; /* Menebalkan teks agar lebih menonjol */
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efek transisi saat hover */
+}
+
+.hero a:hover {
+    background-color: #1e7a1e; /* Warna hijau yang lebih gelap saat hover */
+    transform: scale(1.1); /* Efek zoom-in ringan saat hover */
+}
+  
+  /* Card Styling */
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f5fdf5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h4 {
+  color: #28a745;
+  margin-top: 15px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+  
+  /* Form Section */
+  form {
+    background-color: #f5fdf5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-weight: bold;
+    color: #2a7f2a;
+  }
+  
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1e7a1e;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+  
+
+  footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+    
